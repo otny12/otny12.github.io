@@ -75,13 +75,46 @@ body {
 }
 
 .slide:nth-child(1) {
-    background-color: #49b293;
+    background-color: #3C45B5;
 }
 
 .slide:nth-child(2) {
-    background-color: #b03532;
+    background-color: #27B080;
 }
 
 .slide:nth-child(3) {
-    background-color: #6a478f;
+    background-color: #9B5900;
+}
+
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-text {
+    font-size: 5rem;
+    font-family: 'Caveat', cursive;
+    line-height: 3.5rem;
+    /* margin: 2rem; */
+    color: white;
+}
+
+#welcome-p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#projects-button {
+    background-color: #121B88;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#projects-button:hover {
+    background-color: #0B126B;
 }
