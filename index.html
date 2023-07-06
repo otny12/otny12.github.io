@@ -7,6 +7,10 @@
       href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
       rel="stylesheet"
     />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
 
   <body>
@@ -35,7 +39,7 @@
 
           <div class="one card">
             <div class="project-left">
-              <img src="400x300.png" />
+              <img class="project-pic" src="Viz.png" />
             </div>
             <div class="project-right">
               <h2>Chicago Transportation Dashboards</h2>
@@ -45,18 +49,19 @@
                 data portal cleans it in R then displays them in an interactive
                 dashboard through Shiny. To see a more indepth site on these
                 visualiations visit:
-                <a
-                  href="https://sites.google.com/uic.edu/tony424/home"
-                  target="_blank"
-                  >https://sites.google.com/uic.edu/tony424/home</a
-                >
               </p>
+              <a
+                class="proj-btn"
+                href="https://sites.google.com/uic.edu/tony424/home"
+                target="_blank"
+                >CTA Data Visualization Portfolio</a
+              >
             </div>
           </div>
 
           <div class="two card">
             <div class="project-left">
-              <img src="400x300.png" />
+              <img class="project-pic" src="Greenthumb.png" />
             </div>
             <div class="project-right">
               <h2>Green Thumb</h2>
@@ -69,21 +74,33 @@
                 rapid prototyping with user testing and heuristic reviews were
                 conductted.
               </p>
+              <a
+                class="proj-btn"
+                href="https://github.com/BenDeschand/CS_422_Green_Thumb"
+                target="_blank"
+                >Green Thumb Repo</a
+              >
             </div>
           </div>
 
           <div class="three card">
             <div class="project-left">
-              <img src="400x300.png" />
+              <img class="project-pic" src="mygithub.png" />
             </div>
             <div class="project-right">
               <h2>More On My Github</h2>
               <p>
-                I've also got projects using languages such as python, C++ and
-                more. Their repositories are on Github. They range from
-                Exploratory Data Analysis(EDA) in Jupytr Notebooks to terminal
-                based C++ projects.
+                I've also got projects using languages such as Python, C++,
+                Java, and more. Their repositories are on Github. They range
+                from Exploratory Data Analysis(EDA) in Jupytr Notebooks to
+                terminal based C++ projects.
               </p>
+              <a
+                class="proj-btn"
+                href="https://github.com/otny12"
+                target="_blank"
+                >Github</a
+              >
             </div>
           </div>
 
@@ -92,7 +109,42 @@
           <div class="card"><h2>Chicago Transportation Dashboards</h2></div> -->
         </article>
       </li>
-      <li class="slide">Contact</li>
+      <li class="slide" id="contact">
+        <div class="contact-column">
+          <img class="contact-image" src="linkedinpic.jpg" />
+          <h1 class="contact-header">Linkedin</h1>
+          <p class="contact-p">
+            Looking to Connect?<br />
+            Add me on Linkedin:
+          </p>
+          <a
+            class="link-btn"
+            href="https://www.linkedin.com/in/tony-lau1"
+            target="_blank"
+            >Connect with me</a
+          >
+        </div>
+
+        <div class="contact-column">
+          <img class="contact-image" src="image.png" />
+          <h1 class="contact-header">Email</h1>
+          <p class="contact-p">I'm always open to emails aswell:</p>
+          <a class="link-btn" href="mailto:tonylau600@gmail.com" target="_blank"
+            >tonylau600@gmail.com</a
+          >
+        </div>
+
+        <div class="contact-column">
+          <img class="contact-image" src="github-mark-white.png" />
+          <h1 class="contact-header">Github</h1>
+          <p class="contact-p">
+            Want to see what I've been working on? Check out my Github:
+          </p>
+          <a class="link-btn" href="https://github.com/otny12" target="_blank"
+            >Github</a
+          >
+        </div>
+      </li>
     </ul>
   </body>
   <script src="index.js"></script>
